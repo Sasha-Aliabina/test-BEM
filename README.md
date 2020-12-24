@@ -1,2 +1,4 @@
 # test-BEM
-hello
+hello'
+
+new text
