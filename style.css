@@ -2,12 +2,6 @@
     box-sizing: border-box;
   }
   
-  .animation(@property, @duration: 0, @timing) {
-    -webkit-transition: @property @duration @timing;
-    -o-transition: @property @duration @timing;
-    transition: @property @duration @timing;
-  }
-  
   html, body, div, span, applet, object, iframe,
   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
   a, abbr, acronym, address, big, cite, code,
@@ -35,13 +29,12 @@
   
   a {
     text-decoration: none;
-    .animation(all, 0.3s, linear);
   }
 
   body {
     height: 100%;
     max-width: 2056px;
-    background-color: rgb(108, 16, 255);
+    background-color: rgb(254, 255, 187);
     overflow-x: hidden;
   }
   
@@ -55,4 +48,6 @@
   }  
   header, section, footer {
       margin: auto;
+      width: 80%;
+      text-align: center;
   }
